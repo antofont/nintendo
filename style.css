@@ -51,7 +51,7 @@
     z-index: -1;
     width: 100%;
     height: 1000px;
-    
+    background-image: url(video/composizione.mp4);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
