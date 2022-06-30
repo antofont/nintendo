@@ -82,7 +82,7 @@
     background-color: #f20574;
     border-radius: 50px;
     width: 150px;
-    padding: 1px;
+    padding: 10px;
     text-align: center;
     cursor: pointer;
   }
@@ -322,6 +322,26 @@
   transition: 0.5s;
 }
 
+.footer {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #04bfbf;
+    margin-top: 250px;
+    padding: 30px;
+    bottom: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.footer p{
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
@@ -364,6 +384,17 @@
     align-items: center;
     margin-top: 100px;
     margin-left:20px;
+  }
+
+  .logo img{
+    width: 250px;
+    height: auto;
+  }
+
+  .bottone {
+    width: 80px;
+    height: auto;
+    font-size: 7pt;
   }
 
   .menu{
@@ -437,5 +468,9 @@
 
 .next{
   margin-right: 40px;
+}
+
+.footer {
+  margin-top: 400px;
 }
 }
