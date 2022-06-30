@@ -196,7 +196,7 @@
     position:absolute;
     font-size:180pt;
     color:#f205742a;
-    margin: -350px 90px;
+    margin: -350px 110px;
     z-index: -100;
   }
 
@@ -215,7 +215,7 @@
   position: fixed;
   border-radius: 10px;
   width: 50px;
-  top: 700px;
+  top: 680px;
   height: 50px;
   background-color: #f2057467;
   color:#ffffff;
