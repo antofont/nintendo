@@ -443,7 +443,7 @@
   }
 
   #bottoniFoto{
-    align-items: center;
+    margin-top: -50px;
     width: 200px;
   }
 
