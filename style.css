@@ -265,13 +265,14 @@
 
 #slider{
   grid-area: foto;
-  width: 500px;
+  width:500px;
   border-radius: 10%;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
   display:flex;
   flex-wrap: nowrap;
   margin-right: 20px;
+  z-index: -100;
   }
 
 #img_slider{
@@ -292,8 +293,16 @@
   display:block;
 }
 
+#bottoniFoto {
+  grid-area: foto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  width: 500px;
+}
+
 .prev, .next {
-  position: absolute;
   width: 30px;
   height: 50px;
   background-color: #f3f3f3ac;
@@ -308,12 +317,11 @@
 }
 
 .next {
-  margin-right: 60px;
-  right: 0;
+  right:0;
   border-radius: 10px 0px 0px 10px;
 }
 
-#slider a:hover{
+#bottoniFoto a:hover{
   background-color: rgba(0, 0, 0, 0.515);
   color: white;
 }
